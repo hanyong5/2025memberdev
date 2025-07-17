@@ -12,7 +12,7 @@ jobs:
       - name: SSH EC2로그인
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.HOST }}
+          host: ${{ secrets.HOST1 }}
           username: ubuntu
           key: ${{ secrets.PASSWORD }}
           script: |
